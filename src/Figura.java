@@ -1,5 +1,6 @@
 public abstract class Figura implements Comparable<Figura> {
 
+    protected String nombre;
     protected double area;
     protected double perimetro;
 
@@ -23,4 +24,14 @@ public abstract class Figura implements Comparable<Figura> {
     public void setPerimetro(double perimetro) {
         this.perimetro = perimetro;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+
 }

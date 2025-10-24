@@ -4,6 +4,7 @@ public class Rectangulo extends Figura {
     private double altura;
 
     public Rectangulo(double base, double altura) {
+        this.nombre = "Rectangulo";
         this.base = base;
         this.altura = altura;
         this.perimetro = 2 * (this.base + this.altura);

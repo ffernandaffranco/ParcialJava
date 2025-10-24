@@ -5,6 +5,7 @@ public class Circulo extends Figura {
     private double radio;
 
     public Circulo(double radio) {
+        this.nombre = "Circulo";
         this.radio = radio;
         this.area = (this.radio * this.radio) * PI;
         this.perimetro = 2 * Math.PI * this.radio;

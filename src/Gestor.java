@@ -27,6 +27,12 @@ public class Gestor {
 
     }
 
+    public void reporteCalculosIndividuales() {
+        System.out.println("CALCULOS INDIVIDUALES");
+        for (Figura figura : this.figuras) {
+            System.out.println(figura.getNombre() );
+        }
+    }
     public List<Figura> getFiguras() {
         return figuras;
     }
