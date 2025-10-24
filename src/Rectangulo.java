@@ -6,18 +6,8 @@ public class Rectangulo extends Figura {
     public Rectangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
-    }
-
-    @Override
-    public double calcularPerimetro() {
         this.perimetro = 2 * (this.base + this.altura);
-        return this.perimetro;
-    }
-
-    @Override
-    public double calcularArea() {
         this.area = this.base * this.altura;
-        return this.area;
     }
 
     public double getBase() {

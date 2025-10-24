@@ -4,16 +4,8 @@ public class Cuadrado extends Figura {
 
     public Cuadrado(double lado) {
         this.lado = lado;
-    }
-
-    @Override
-    public double calcularArea() {
-        return lado * lado;
-    }
-
-    @Override
-    public double calcularPerimetro() {
-        return lado * 4;
+        this.perimetro = this.lado * 4;
+        this.area = this.lado * this.lado;
     }
 
     public double getLado() {
